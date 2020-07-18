@@ -1,0 +1,293 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            width: 100%;
+            height: 780px;
+            background-image: url("../IMG/bg2.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* overflow-x: hidden; */
+        }
+        
+        .ui-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close::before {
+            content: "X";
+            position: relative;
+            top: -7px;
+            color: black
+            /* background: rgb(255, 255, 255); */
+        }
+        
+        #banner {
+            margin: 0 auto;
+            position: relative;
+            width: 800px;
+            height: 120px;
+            /* background-color: rgba(93, 104, 34, 0.815); */
+            opacity: 0.7;
+        }
+        
+        #textillate1 {
+            left: -120px;
+            top: 20px;
+        }
+        
+        #slider1 {
+            margin: 0 auto;
+            position: relative;
+            width: 95.5%;
+            /* height: auto; */
+        }
+        
+        #header-menu-ul {
+            position: relative;
+            width: 100%;
+            height: 70px;
+            background-color: #2a599c;
+        }
+        
+        #header-menu-ul>li {
+            margin-left: 0px;
+            list-style: none;
+            float: left;
+            width: 150px;
+            height: 80px;
+            border-right: 1px inset #c6c6c6;
+            transform: skew(-30deg);
+        }
+        
+        #header-menu-ul>li>a {
+            color: white;
+        }
+        
+        #logo {
+            animation-name: logo-example;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        
+        #button-wrapper {
+            /* background-image: url(../IMG/bg5.jpg); */
+            /* background-color: rgb(221, 240, 197); */
+            border: 7px dotted rgb(218, 218, 215);
+            /* opacity: 0.5; */
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        #button-ul {
+            position: relative;
+            width: 650px;
+            height: 100px;
+            margin: 0 auto;
+            /* border: 1px solid red; */
+        }
+        
+        #button-ul>li {
+            list-style: none;
+            float: left;
+            width: 250px;
+        }
+        
+        #button-ul>li:nth-child(1) {
+            margin-right: 20px;
+            margin-left: 100px;
+        }
+        
+        #label-darmstadt {
+            animation-name: example-label-darmstadt;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        
+        #label-dieburg {
+            animation-name: example-label-dieburg;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        
+        #button-ul-smart {
+            display: none;
+            padding-top: 15px;
+            position: relative;
+            height: 160px;
+            width: 100%;
+            margin: 0 0;
+            background: radial-gradient(rgba(255, 255, 255, 0.863), rgb(255, 255, 255), gray);
+        }
+        
+        #button-ul-smart>li {
+            list-style: none;
+            width: 80%;
+            position: relative;
+            margin: 0 auto;
+        }
+        
+        #button-ul-smart>li:nth-child(1) {
+            margin-bottom: 10px;
+        }
+        
+        #footer-label-smart {
+            display: none !important;
+        }
+        
+        #damga-smart {
+            display: none;
+        }
+        
+        #damga-smart2 {
+            display: none;
+        }
+        /*=====================================*/
+        
+        @keyframes example-label-darmstadt {
+            50% {
+                color: darkblue;
+            }
+            50% {
+                transform: translateY(5px);
+            }
+        }
+        
+        @keyframes example-label-dieburg {
+            50% {
+                color: darkblue;
+            }
+            50% {
+                transform: translateY(-5px);
+            }
+        }
+        
+        @keyframes logo-example {
+            50% {
+                transform: scale(0.6);
+            }
+            50% {
+                transform: scale(0.7);
+            }
+        }
+        
+        #saz2 {
+            animation-name: saz-example;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        /* @keyframes saz-example {
+50% {
+transform: rotate(-80deg);
+}
+50% {
+transform: rotate(80deg);
+}
+} */
+        
+        #gitar2 {
+            animation-name: gitar-example;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        /* @keyframes gitar-example {
+50% {
+transform: rotate(-90deg);
+}
+50% {
+transform: rotate(90deg);
+}
+} */
+        /*==================== media ============================================*/
+        
+        @media only screen and (min-width:680px) and (max-width:1250px) {
+            #textillate1 {
+                transform: scale(0.9);
+                /* left: 100px; */
+            }
+            #logo {
+                top: 60px;
+            }
+            #damga {
+                display: none;
+            }
+            #damga-smart {
+                display: block;
+                transform: scale(0.7);
+                /* transform: translate(20px); */
+            }
+            #gitar2 {
+                transform: rotate(90deg);
+                /* transform: scale(0.8); */
+                margin-top: 60px;
+            }
+            #saz2 {
+                transform: rotate(60deg);
+                display: none;
+                /* transform: translate(750px); */
+                margin-top: 140px;
+                margin-left: 50px;
+            }
+            #label-www {
+                transform: scale(0.8);
+            }
+        }
+        
+        @media only screen and (min-width:280px) and (max-width:700px) {
+            #textillate1 {
+                display: none;
+            }
+            #logo {
+                top: 80px;
+            }
+            #textillate1-smart {
+                display: block !important;
+                left: 20px;
+            }
+            #gitar2 {
+                margin-left: -100px;
+                display: none;
+            }
+            #saz2 {
+                margin-left: -130px;
+                margin-top: -40px;
+                display: none;
+            }
+            #damga {
+                display: none;
+            }
+            #button-ul {
+                /* height: 200px;
+background: radial-gradient(orange, white); */
+                display: none;
+            }
+            #button-ul>li {
+                width: 100%;
+                float: none;
+                margin-left: 30px;
+            }
+            #button-ul>li:nth-child(1) {
+                margin-left: 30px;
+            }
+            #label-www {
+                transform: scale(0.5) !important;
+                margin-top: -50px;
+                margin-left: -50px;
+                display: none !important;
+            }
+            #button-wrapper {
+                display: none;
+            }
+            #button-ul-smart {
+                display: block !important;
+            }
+            #footer-label {
+                margin-left: 45px;
+                display: none;
+            }
+            #footer-label-smart {
+                display: block !important;
+                top: 80px;
+            }
+            #damga-smart2 {
+                display: block !important;
+            }
+        }

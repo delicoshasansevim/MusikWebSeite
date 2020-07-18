@@ -1,0 +1,749 @@
+body {
+    height: 1940px;
+    /* background-image: url("../IMG/bg2.jpg"); */
+    /* background-color: rgb(255, 255, 255); */
+    background: radial-gradient( rgb(204, 155, 100), rgb(253, 251, 255), rgb(171, 174, 179));
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    overflow-x: hidden;
+}
+
+#video-wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    overflow: hidden;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+#video-wrapper>iframe {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    box-shadow: 1px 10px 11px rgb(4, 20, 8);
+    /* background-color: rgb(46, 95, 128); */
+    /* background-color: rgb(67, 4, 97); */
+    border: 1px solid rgb(189, 215, 255);
+    /* background-color: rgb(3, 39, 80); */
+    /* border-radius: 50px; */
+    background: radial-gradient( rgb(100, 192, 204), rgb(253, 251, 255), rgb(171, 177, 187));
+    /* background-image: url("../IMG/banner11-green.jpg"); */
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+#list-wrapper {
+    margin: 25px auto;
+    position: relative;
+    width: 1000px;
+    height: 60px;
+    box-shadow: 11px 10px 16px rgb(44, 53, 12);
+    /* border: 4px solid rgb(255, 255, 255); */
+    /* background-color: rgb(46, 95, 128); */
+    background-color: rgb(3, 39, 80);
+    border-radius: 5px;
+    /* transform: skew(55deg); */
+    /* background-image: url("../IMG/müzik-banner2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    /* background-color: rgb(67, 4, 97); */
+    /* background: linear-gradient( rgba(202, 7, 7, 0.3), rgba(211, 143, 26, 0.2)); */
+}
+
+#ders-ücretleri {
+    position: absolute;
+    color: white;
+    display: none;
+    top: 0px;
+    left: 0px;
+    box-shadow: 5px 16px 17px rgb(112, 112, 112);
+    z-index: 999;
+    width: 1000px;
+    height: 550px;
+    border: 6px dotted rgba(212, 212, 212, 0.466);
+    background-color: rgb(255, 255, 255);
+    /* background-image: url("../IMG/bg2.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#video-galeri {
+    top: 0px;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    height: 1685px;
+    background-color: #1593b3;
+    display: none;
+}
+
+.video-ul {
+    position: relative;
+    z-index: 999999999;
+}
+
+.video-ul>li {
+    list-style: none;
+    float: left;
+    width: 450px;
+}
+
+.video-ul>li>a {
+    color: green;
+}
+
+#ileti-div-smart {
+    display: none !important;
+}
+
+
+/*------------------------------------*/
+
+#fotograf-galeri {
+    top: 0px;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    height: 1685px;
+    background-color: #518aa5;
+    display: none;
+}
+
+
+/*------------------------------------*/
+
+.fotograf-galeri-ul {
+    position: relative;
+    z-index: 999999999;
+    width: 100%;
+    height: 168px;
+    /* border: 1px inset red; */
+}
+
+.fotograf-galeri-ul>li {
+    list-style: none;
+    width: 250px;
+    height: 168px;
+    border: 5px inset rgb(255, 255, 255);
+    float: left;
+}
+
+.fotograf-galeri-ul>li:nth-child(1) {
+    margin-left: -42px;
+}
+
+.fotograf-galeri-ul>li:nth-child(1),
+.fotograf-galeri-ul>li:nth-child(2),
+.fotograf-galeri-ul>li:nth-child(3),
+.fotograf-galeri-ul>li:nth-child(4) {
+    margin-top: 50px;
+}
+
+.fotograf-galeri-ul>li>:hover {
+    z-index: 9;
+    transition: all 0.4s ease;
+    border: 4px solid gray;
+    /* transition: all 1.5s ease; */
+    transform: translateX(100px);
+    transform: scale(2.5);
+}
+
+
+/*------------------------------------*/
+
+.fotograf-galeri-ul2 {
+    margin-top: 200px;
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    height: 168px;
+    /* border: 1px inset red; */
+}
+
+.fotograf-galeri-ul2>li {
+    list-style: none;
+    width: 250px;
+    height: 168px;
+    border: 5px inset rgb(139, 16, 16);
+    float: left;
+}
+
+.fotograf-galeri-ul2>li:nth-child(1) {
+    margin-left: -42px;
+}
+
+.fotograf-galeri-ul2>li>:hover {
+    z-index: 9999999999999999999999;
+    transition: all 0.4s ease;
+    border: 4px solid gray;
+    /* transition: all 1.5s ease; */
+    transform: scale(2.5);
+}
+
+
+/*------------------------------------*/
+
+.fotograf-galeri-ul3 {
+    margin-top: 200px;
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    height: 168px;
+    /* border: 1px inset red; */
+}
+
+.fotograf-galeri-ul3>li {
+    list-style: none;
+    width: 250px;
+    height: 168px;
+    border: 5px inset rgb(17, 124, 31);
+    float: left;
+}
+
+.fotograf-galeri-ul3>li:nth-child(1) {
+    margin-left: -42px;
+}
+
+.fotograf-galeri-ul3>li>:hover {
+    z-index: 9999999999999999999999;
+    transition: all 0.4s ease;
+    border: 4px solid gray;
+    /* transition: all 1.5s ease; */
+    transform: scale(2.5);
+}
+
+
+/*------------------------------------*/
+
+.fotograf-galeri-ul4 {
+    margin-top: 200px;
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    height: 168px;
+    /* border: 1px inset red; */
+}
+
+.fotograf-galeri-ul4>li {
+    list-style: none;
+    width: 250px;
+    height: 168px;
+    border: 5px inset rgb(17, 124, 31);
+    float: left;
+}
+
+.fotograf-galeri-ul4>li:nth-child(1) {
+    margin-left: -42px;
+}
+
+.fotograf-galeri-ul4>li>:hover {
+    z-index: 9999999999999999999999;
+    transition: all 0.4s ease;
+    border: 4px solid gray;
+    /* transition: all 1.5s ease; */
+    transform: scale(2.5);
+}
+
+
+/*------------------------------------*/
+
+.fotograf-galeri-ul5 {
+    margin-top: 200px;
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    height: 168px;
+    /* border: 1px inset red; */
+}
+
+.fotograf-galeri-ul5>li {
+    list-style: none;
+    width: 250px;
+    height: 168px;
+    border: 5px inset rgb(255, 244, 145);
+    float: left;
+}
+
+.fotograf-galeri-ul5>li:nth-child(1) {
+    margin-left: -42px;
+}
+
+.fotograf-galeri-ul5>li>:hover {
+    z-index: 9999999999999999999999;
+    transition: all 0.4s ease;
+    border: 4px solid gray;
+    /* transition: all 1.5s ease; */
+    transform: scale(2.5);
+}
+
+
+/*------------------------------------*/
+
+#liste-ul {
+    position: relative;
+    z-index: 9999999;
+    margin: 10px auto;
+    position: relative;
+    width: 90%;
+    height: 60px;
+}
+
+#liste-ul>li {
+    list-style: none;
+    float: left;
+    margin-top: 20px;
+    width: 140px;
+}
+
+#liste-ul>li>a {
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    font-family: arial;
+    text-decoration: none;
+}
+
+main {
+    margin: 20px auto;
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    box-shadow: 2px 3px 4px gray;
+    background-color: rgb(238, 236, 236);
+}
+
+#main2 {
+    position: absolute;
+    z-index: 9999;
+    display: none;
+    top: 0px;
+    width: 100%;
+    height: 1695px;
+    background-color: #eeeeee;
+    /* background-image: url("../IMG/bg-sonne.jpg"); */
+    /* background-size: cover;
+background-repeat: no-repeat; */
+}
+
+#iletisim {
+    top: 0px;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    height: 600px;
+    color: rgb(0, 0, 0);
+    border: 3px solıd rgb(236, 236, 236);
+    background-color: #f8faff;
+    box-shadow: 5px 7px 9px rgb(86, 136, 192);
+    /* background-image: url(../IMG/bg4.jpg); */
+    display: none;
+}
+
+#slider-darmstadt {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+#article-left {
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 450px;
+    height: 500px;
+    border: 1px solid rgb(112, 112, 112);
+    /* overflow-x: scroll; */
+    float: left;
+}
+
+#article-right {
+    width: 450px;
+    height: 500px;
+    border: 1px solid rgb(150, 150, 150);
+    float: left;
+}
+
+
+/* #saz22 {
+    animation-name: saz-example;
+    animation-duration: 45s;
+    animation-iteration-count: infinite;
+} */
+
+@keyframes saz-example {
+    50% {
+        transform: scale(1.2);
+    }
+    50% {
+        transform: scale(1);
+    }
+}
+
+#gitar22 {
+    animation-name: gitar-example;
+    animation-duration: 45s;
+    animation-iteration-count: infinite;
+}
+
+
+/*     
+@keyframes gitar-example {
+50% {
+transform: scale(1.3);
+}
+50% {
+transform: scale(1);
+}
+} */
+
+#saz-kücük {
+    display: none !important;
+}
+
+#gitar-kücük {
+    display: none !important;
+}
+
+#list-wrapper-tablet {
+    display: none !important;
+}
+
+#liste-ul-tablet {
+    left: 20px;
+    top: 50px;
+    position: absolute;
+    z-index: 9999999999999;
+}
+
+#liste-ul-tablet>li {
+    list-style: none;
+    border-radius: 15px;
+    width: 150px;
+    border: 2px solid white;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(17, 5, 24, 0.75);
+}
+
+#liste-ul-tablet>li>a {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 25px;
+    text-decoration: none;
+}
+
+#liste-ul-tablet>li>a:hover {
+    background-color: rgba(54, 234, 247, 0.4);
+    left: 50px;
+    margin-top: 25px;
+    display: table-cell;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    transform: translateX(15px);
+    transition: all 0.5s ease;
+}
+
+
+/*------------------------------------*/
+
+.fotograf-galeri-ul-tablet {
+    margin-top: 10px;
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    height: 350px;
+}
+
+.fotograf-galeri-ul-tablet>li {
+    list-style: none;
+    padding: 10px 10px;
+    width: 34%;
+    height: auto;
+    margin-left: 0px;
+    border: 5px inset rgb(255, 244, 145);
+    float: left;
+}
+
+.fotograf-galeri-ul-tablet>li:nth-child(1) {
+    margin-left: -38px;
+}
+
+.fotograf-galeri-ul-smart>li {
+    list-style: none;
+    margin-left: -40px;
+}
+
+
+/*=================================MEDIA================================*/
+
+@media (min-width:1200px) {
+    #nota {
+        display: none !important;
+    }
+    #ileti-smart {
+        display: none !important;
+    }
+}
+
+@media (min-width:480px) and (max-width:1500px) {
+    #nota {
+        display: none !important;
+    }
+}
+
+@media (min-width:1020px) and (max-width:1440px) {
+    #saz22 {
+        display: none !important;
+    }
+    #gitar22 {
+        display: none !important;
+    }
+    #saz-kücük {
+        display: block !important;
+        left: 80px !important;
+    }
+    #gitar-kücük {
+        display: block !important;
+    }
+    #ileti-smart {
+        display: none !important;
+    }
+}
+
+@media(max-width:1250px) {
+    header {
+        border-radius: 0px;
+    }
+}
+
+@media only screen and (min-width:280px) and (max-width:1380px) {
+    #textillate-darmstadt {
+        display: none !important;
+    }
+    #textillate-darmstadt-tablet {
+        display: block !important;
+    }
+    #logo-tablet {
+        display: none !important;
+    }
+}
+
+@media (min-width:680px) and (max-width:1020px) {
+    header {
+        border-radius: 0px;
+    }
+    #saz22 {
+        display: none !important;
+    }
+    #gitar22 {
+        display: none !important;
+    }
+    #saz-kücük {
+        display: block !important;
+        left: 30px !important;
+    }
+    #gitar-kücük {
+        display: block !important;
+        right: 50px !important;
+        /* -webkit-transform: rotate(15deg);
+        -moz-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        -o-transform: rotate(15deg);
+        transform: rotate(15deg); */
+    }
+    #list-wrapper-tablet {
+        display: block!important;
+    }
+    #section1 {
+        display: none !important;
+    }
+    #section1-tablet {
+        display: block !important;
+        margin-top: -50px !important;
+    }
+    #video-wrapper {
+        opacity: 0.1;
+    }
+    #ileti-div {
+        top: 360px;
+        background-color: #7d7d7e;
+    }
+    footer {
+        margin-top: 1800px !important;
+    }
+    #index-wrapper1 {
+        display: none !important;
+    }
+    #index-wrapper2 {
+        display: block !important;
+    }
+    #liste-ul-tablet {
+        top: 150px;
+    }
+    /*------------------------*/
+    #header-title-tablet {
+        z-index: 999999999999999999999;
+        top: 10px !important;
+        display: block !important;
+        animation-name: example-header-title-tablet;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes example-header-title-tablet {
+        100% {
+            transform: scale(1.2);
+            /* background-color: rgb(46, 46, 44); */
+        }
+    }
+    /*------------------------*/
+    #ileti-tablet2 {
+        animation-name: example-ileti-tablet2;
+        animation-duration: 4s;
+        /* animation-timing-function: ease-in-out; */
+        animation-iteration-count: infinite;
+    }
+}
+
+@keyframes example-ileti-tablet2 {
+    50% {
+        /* transform: translateY(-10px); */
+        background-color: rgb(158, 95, 93);
+    }
+    50% {
+        /* transform: translateY(-10px); */
+        background-color: rgb(32, 148, 132);
+    }
+}
+
+
+/*------------------------*/
+
+@keyframes example-header-title-tablet {
+    100% {
+        transform: scale(1.2);
+        /* background-color: rgb(46, 46, 44); */
+    }
+}
+
+
+/*------------------------*/
+
+#ileti-smart {
+    animation-name: example-ileti-div-smart;
+    animation-duration: 4s;
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: infinite;
+}
+
+@keyframes example-ileti-div-smart {
+    50% {
+        /* transform: translateY(-10px); */
+        background-color: rgb(189, 85, 71);
+    }
+    50% {
+        /* transform: translateY(-10px); */
+        background-color: rgb(255, 230, 146);
+    }
+}
+
+
+/*------------------------*/
+
+@media (min-width:280px) and (max-width:680px) {
+    header {
+        display: none !important;
+    }
+    #slider-darmstadt {
+        display: none;
+    }
+    #video-wrapper {
+        display: none !important;
+    }
+    #main1 {
+        display: none !important;
+    }
+    #list-wrapper {
+        display: none !important;
+    }
+    #saz22 {
+        display: none !important;
+    }
+    #gitar22 {
+        display: none !important;
+    }
+    #ileti {
+        display: none !important;
+    }
+    footer {
+        display: none !important;
+    }
+    #ileti-div {
+        display: none !important;
+    }
+    #schraeg-banner {
+        display: none !important;
+    }
+    #developed {
+        display: none !important;
+    }
+    #logo-tablet {
+        display: block !important;
+    }
+    #nota {
+        display: none !important;
+    }
+    header {
+        box-shadow: 5px 10px 5px rgb(255, 214, 183);
+        /* background-color: rgb(17, 95, 114); */
+        /* background-image: url("../IMG/neon1.jpg"); */
+    }
+    #list-wrapper-tablet {
+        display: block!important;
+    }
+    #liste-ul-tablet>li {
+        display: none !important;
+    }
+    #section1 {
+        display: none;
+    }
+    #liste-ul-smart {
+        display: block !important;
+    }
+    #slider-darmstadt-smart {
+        display: block !important;
+    }
+    #saz-kursu-info-smart {
+        display: block !important;
+    }
+    #gitar-kursu-info-smart {
+        display: block !important;
+    }
+    #map-smart {
+        display: block !important;
+    }
+    #video-wrapper-smart {
+        display: block !important;
+    }
+    #header-smart {
+        display: block !important;
+    }
+    #ileti-div-smart {
+        display: block !important;
+    }
+    #developed-smart {
+        display: block !important;
+    }
+    #smart-wrapper-darmstadt {
+        display: block !important;
+    }
+}
+
+
+/*=================================MEDIA================================*/
