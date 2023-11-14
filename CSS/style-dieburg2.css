@@ -536,6 +536,10 @@ transform: scale(1);
     #logo-tablet {
         display: none !important;
     }
+
+    #developed {
+        display: none !important;
+    }
 }
 
 @media (min-width:680px) and (max-width:1020px) {
@@ -546,7 +550,7 @@ transform: scale(1);
         display: none !important;
     }
     #saz-kücük {
-        display: block !important;
+        display: none !important;
         left: 0px !important;
     }
     #gitar-kücük {
@@ -587,6 +591,12 @@ transform: scale(1);
     #liste-ul-tablet {
         top: 150px;
     }
+
+    #developed {
+        display: none !important;
+    }
+
+
     /*------------------------*/
     #header-title-tablet {
         z-index: 999999999999999999999;
@@ -744,3 +754,27 @@ transform: scale(1);
 
 
 /*=================================MEDIA================================*/
+
+
+
+@media only screen and (min-width:410px) and (max-width:680px) {
+
+    #kurspreis-iphone{
+
+        display:block!important;
+    }
+
+ 
+    
+}
+
+
+@media only screen and (min-width:180px) and (max-width:410px) {
+
+    #kurspreis-samsung{
+
+        display:block !important;
+    }
+
+    
+}

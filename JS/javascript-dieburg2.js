@@ -626,7 +626,7 @@ $(document).ready(function() {
 
     $("#maske2").on("mouseover", function() {
 
-        $("#line2").show(300);
+        //$("#line2").show(300);
         $(this).css({ 'cursor': 'pointer' });
         $("#liste-ul>li:nth-child(2)>a").css({ 'color': '#94ff00' });
 
@@ -661,7 +661,7 @@ $(document).ready(function() {
 
     $("#maske3").on("mouseover", function() {
 
-        $("#line3").toggle(300);
+        //$("#line3").toggle(300);
 
         $(this).css({ 'cursor': 'pointer' });
         // $("#liste-ul>li:nth-child(3)>a").css({ 'color': 'rgb(86, 137, 202)' });
@@ -708,7 +708,7 @@ $(document).ready(function() {
 
     $("#maske4").on("mouseover", function() {
 
-        $("#line4").show("300");
+        //$("#line4").show("300");
         $(this).css({ 'cursor': 'pointer' });
         // $("#liste-ul>li:nth-child(4)>a").css({ 'color': 'rgb(86, 137, 202)' });
         $("#liste-ul>li:nth-child(4)>a").css({ 'color': '#94ff00' });
@@ -743,7 +743,7 @@ $(document).ready(function() {
 
     $("#maske5").on("mouseover", function() {
 
-        $("#line5").show(300);
+       // $("#line5").show(300);
         $(this).css({ 'cursor': 'pointer' });
         // $("#liste-ul>li:nth-child(5)>a").css({ 'color': 'rgb(86, 137, 202)' });
         $("#liste-ul>li:nth-child(5)>a").css({ 'color': '#94ff00' });
@@ -779,7 +779,7 @@ $(document).ready(function() {
 
     $("#maske6").on("mouseover", function() {
 
-        $("#line6").show(300);
+       // $("#line6").show(300);
         $(this).css({ 'cursor': 'pointer' });
         // $("#liste-ul>li:nth-child(6)>a").css({ 'color': 'rgb(86, 137, 202)' });
         $("#liste-ul>li:nth-child(6)>a").css({ 'color': '#94ff00' });

@@ -834,7 +834,7 @@ $(document).ready(function() {
 
     $("#slider-darmstadt").cycle({
 
-        fx: 'turnLeft',
+        fx: 'fade',
         speed: 1000,
         timeout: 1000
 
@@ -849,6 +849,15 @@ $(document).ready(function() {
 
     });
 
+ /*
+    $("#smart-wrapper-darmstadt-slider").cycle({
+
+        fx: 'fade',
+        speed: 1000,
+        timeout: 1000
+
+    });
+*/
 
     // if ($(window).width() < 850) {
 
@@ -857,7 +866,7 @@ $(document).ready(function() {
 
 
     //textillate
-    $("#textillate-darmstadt").textillate({
+   /* $("#textillate-darmstadt").textillate({
 
         loop: true,
 
@@ -870,10 +879,11 @@ $(document).ready(function() {
             effect: 'bounceOut'
         }
 
-    });
+    });*/
 
 
 
+    /* 
     $("#textillate-darmstadt-tablet").textillate({
 
         loop: true,
@@ -888,7 +898,9 @@ $(document).ready(function() {
         }
 
     });
+    */
 
+    /*
     $("#ileti").textillate({
 
         loop: true,
@@ -919,7 +931,7 @@ $(document).ready(function() {
         }
 
     });
-
+*/
 
 
 

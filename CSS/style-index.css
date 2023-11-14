@@ -1,0 +1,336 @@
+/*======================================LAPTOP/Monitor====================================*/
+
+@media only screen and (min-width:1150px)
+{
+
+    html{
+
+        margin:0;
+        padding:0;
+    }
+
+*
+    {
+        box-sizing: border-box;
+    }
+
+    body{
+    
+    /* background-image: url(../IMG/background8.jpg); */
+    /* background-color:#a53030; */
+    margin:0;
+    padding:0;
+    background-repeat: no-repeat;
+    background-size:100%;
+    overflow-x:hidden;
+
+    }
+
+
+    #language-flag-menu-ul{
+
+        width:100%;
+        height:100px;
+        margin-top:10px;
+        margin-left:50px;
+        list-style: none;
+        display:flex;
+        flex-direction: row;
+    }
+
+    #language-flag-menu-ul > li{
+
+        width:100px;
+        height:100px;
+        
+    }
+
+#button-bg{
+
+    position:absolute; 
+    width:100%; 
+    height:250px;
+    top:480px;
+    border: 5px solid rgb(59, 55, 55);
+    background-color: rgb(112, 110, 101);
+    opacity:0.32;
+}
+
+
+#button-wrapper{
+
+    position: relative;
+    width:500px;
+    height:120px;
+    margin: 110px auto;
+   
+    
+}
+
+
+}/*---end--media--*/
+    
+
+/*===============================end of Labtop/Monitor====================================*/
+
+
+
+
+
+
+
+/*======================================TABLET====================================*/
+
+@media only screen and (min-width:680px) and (max-width:1150px)
+{
+
+
+    #labtop-wrapper{
+        display:none;
+    }
+
+    body{
+        overflow-x:hidden;
+    }
+    #tablet-wrapper{
+
+        display:block !important;
+        
+    }
+
+    #header-tablet{
+
+        position:relative;
+        width:100%;
+        height:100px;
+        background: linear-gradient(#fff3f3, rgb(75, 75, 75));
+    }
+
+
+
+    #language-flag-menu-ul-tablet{
+
+        width:100%;
+        height:100px;
+        margin-top:10px;
+        margin-left:50px;
+        list-style: none;
+        display:flex;
+        flex-direction: row;
+    }
+
+    #language-flag-menu-ul-tablet > li{
+
+        width:70px;
+        height:100px;
+        
+    }
+
+
+    #button-bg-tablet{
+
+        position:absolute; 
+        width:100%; 
+        height:250px;
+        top:480px;
+        border: 5px solid rgb(59, 55, 55);
+        background-color: rgb(112, 110, 101);
+        opacity:0.32;
+    }
+    
+    
+    #button-wrapper-tablet{
+    
+        position: relative;
+        width:500px;
+        height:120px;
+        margin: 110px auto;
+       
+        
+    }
+
+
+
+}/*---end--media--*/
+
+/*======================================end of Tablet====================================*/
+
+@media only screen and (min-width:180px) and (max-width:1100px)
+{
+    
+
+    #saz-kücük-tablet{
+        display:none !important;
+    } 
+
+}
+
+
+
+ @media only screen and (min-width:180px) and (max-width:800px)
+{
+    
+
+    #gitar-kücük-tablet{
+        display:none !important;
+    }
+
+
+
+} 
+
+
+
+
+
+
+/*======================================SMART====================================*/
+
+
+@media only screen and (min-width:180px) and (max-width:680px)
+{
+
+    body{
+      overflow: none !important;
+    }
+
+    #labtop-wrapper{
+        display:none;
+    }
+    
+    #tablet-wrapper{
+
+        display:none;
+    }
+
+    #smart-wrapper{
+        display:block !important;
+        background: radial-gradient(white,rgb(189, 186, 186));
+        overflow: none !important;
+    }
+
+
+    #header-smart{
+
+        position: relative;
+        width:100%;
+        height:100px;
+        background:radial-gradient(#e5e5e5, rgb(173, 165, 165), #e5e5e5,gray);
+    }
+
+    #smart-flag-menu-ul{
+
+        position:absolute;
+        width:300px;
+        height:40px;
+        right:0px;
+        bottom:-10px;
+        display:flex;
+        flex-direction: row;
+        list-style: none;
+        font-size:13px;
+    }
+
+    #smart-flag-menu-ul > li{
+
+        width:80px;
+    }
+
+    #smart-flag-menu-ul > li:nth-child(1),
+    #smart-flag-menu-ul > li:nth-child(3)
+    {
+
+        padding-top:6px;
+        margin-right:-10px;
+    }
+
+
+    #toplum-smart{
+
+        display:block !important;
+        margin-top:-20px;
+        box-shadow: 1px 2px 3px rgb(182, 182, 182);
+    }
+
+
+    #button-menu-list-ul-wrapper{
+
+        position: relative;
+        width:100%;
+        height:200px;
+        box-shadow: 1px 2px 3px rgb(182, 182, 182);
+        background-color: antiquewhite;
+    }
+    
+
+    #button-menu-list-ul{
+
+        position: relative;
+        list-style: none;
+        width:300px;
+        height:200px;
+        margin: 0 auto;
+        padding-top:30px;
+        /* background-color: gray;
+         */
+    }
+
+    #button-menu-list-ul > li{
+        height:50px;
+        width:250px;
+        margin-left: -15px;
+        
+    }
+
+    #button-menu-list-ul > li:nth-child(2),
+    #button-menu-list-ul > li:nth-child(4)
+    {
+
+        margin-top:-30px;
+
+    }
+
+    /*deutsch*/
+    #button-menu-list-ul-wrapper-deutsch {
+
+        position: relative;
+        width:100%;
+        height:200px;
+        box-shadow: 1px 2px 3px rgb(182, 182, 182);
+        background-color: antiquewhite;
+        
+    }
+    
+
+    #button-menu-list-ul-deutsch{
+
+        position: relative;
+        list-style: none;
+        width:300px;
+        height:200px;
+        margin: 0 auto;
+        padding-top:30px;
+        margin-top:-50px;
+        /* background-color: gray;
+         */
+    }
+
+    #button-menu-list-ul-deutsch > li{
+        height:50px;
+        width:250px;
+        margin-left: -15px;
+        
+    }
+
+    #button-menu-list-ul-deutsch > li:nth-child(2),
+    #button-menu-list-ul-deutsch > li:nth-child(4)
+    {
+
+        margin-top:-30px;
+
+    }
+
+
+}/*---end--media--*/
+
+/*=================================end of Smart====================================*/
